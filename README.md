@@ -56,9 +56,9 @@ The RegEx used for semantic compliance is:
 
 The RegEx used for development compliance is:
 
-`pattern="(^|[.\-+_])(dev(elopment)?|pre(release)?|alpha|beta|rc|snapshot|nightly|canary|preview)([0-9]*($|[.\-+_]))"`
+`pattern="(dev|pre|alpha|beta|rc|snapshot|nightly|canary|preview)"`
 
-For further details: <https://regex101.com/r/fBdC3w/1>
+For further details: <https://regex101.com/r/d6KWNO/1>
 
 The second RegEx uses the grep flags `"-Eqi"` which makes the match
 case-insensitive and allows for partial matches.
